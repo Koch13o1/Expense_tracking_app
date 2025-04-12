@@ -1,0 +1,5 @@
+com/sharedexp/UserBalanceDTO.class
+com/sharedexp/GroupCreatedEvent.class
+com/sharedexp/ExpenseDTO.class
+com/sharedexp/SettlementTransactionDTO.class
+com/sharedexp/Main.class

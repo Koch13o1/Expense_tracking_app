@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/expensedb
+    username: expenseadmin
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  application:
+    name: expense-service
+  spring:
+    kafka:
+      consumer:
+        properties:
+          spring.json.use.type.headers: false
