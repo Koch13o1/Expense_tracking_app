@@ -1,7 +1,12 @@
 package com.sharedexp;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class SettlementTransactionDTO {
-    private String fromUser;
-    private String toUser;
+    private Long fromUser;
+    private Long toUser;
     private Double amount;
 }
